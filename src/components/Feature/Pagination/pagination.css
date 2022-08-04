@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.page-item {
+  width: 45px;
+  height: 38px;
+  border: 2px solid #f67704;
+  border-radius: 8px;
+  position: relative;
+}
+
+.page-link {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
